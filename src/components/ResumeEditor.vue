@@ -18,7 +18,7 @@ const props = defineProps<Props>()
 const containerRef = ref<HTMLDivElement>()
 
 const htmlContent = computed(() => {
-  return marked(props.markdown, { async: false }) as string
+  return marked.parse(props.markdown) as string
 })
 
 const goBottom = () => {
@@ -40,7 +40,7 @@ defineExpose({ goBottom, goTop })
 .raw {
   margin: 0;
   white-space: pre-wrap;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
   font-family: 'Fira Code', 'Consolas', monospace;
   font-size: 14px;
   line-height: 1.6;
