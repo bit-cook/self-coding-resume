@@ -1,5 +1,5 @@
 {
-  "name": "coding-myself-resume",
+  "name": "self-coding-resume",
   "version": "1.0.0",
   "description": "An interactive code-style resume template built with Vue 3 + Vite + TypeScript",
   "type": "module",
