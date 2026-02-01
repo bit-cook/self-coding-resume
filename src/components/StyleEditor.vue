@@ -17,7 +17,9 @@ const props = defineProps<Props>()
 const containerRef = ref<HTMLDivElement>()
 
 const highlightedCode = computed(() => {
-  return Prism.highlight(props.code, Prism.languages.css, 'css')
+  const grammar = Prism.languages.css
+  if (!grammar) return props.code
+  return Prism.highlight(props.code, grammar, 'css')
 })
 
 const codeInStyleTag = computed(() => {
