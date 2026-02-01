@@ -1,8 +1,8 @@
-# Coding Myself Resume 🚀
+# Self Coding Resume 🚀
 
 An interactive code-style resume template built with **Vue 3 + Vite + TypeScript**.
 
-[Live Demo](https://yourusername.github.io/coding-myself-resume)
+[Live Demo](https://yourusername.github.io/self-coding-resume)
 
 ![preview](https://via.placeholder.com/800x400/0a192f/64ffda?text=Code+Myself+Preview)
 
@@ -26,8 +26,8 @@ An interactive code-style resume template built with **Vue 3 + Vite + TypeScript
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/coding-myself-resume.git
-cd coding-myself-resume
+git clone https://github.com/yourusername/self-coding-resume.git
+cd self-coding-resume
 
 # Install dependencies
 npm install
