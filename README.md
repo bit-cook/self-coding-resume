@@ -27,7 +27,7 @@ An interactive code-style resume template built with **Vue 3 + Vite + TypeScript
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/code-myself-resume.git
-cd code-myself
+cd code-myself-resume
 
 # Install dependencies
 npm install
@@ -71,16 +71,21 @@ const CONFIG = {
 .
 ├── src/
 │   ├── components/
+│   │   ├── __tests__/         # Unit tests
 │   │   ├── StyleEditor.vue    # Code display component
 │   │   └── ResumeEditor.vue   # Resume display component
 │   ├── assets/
 │   │   └── reset.css          # CSS reset
 │   ├── App.vue                # Main application
 │   └── main.ts                # Entry point
+├── .github/
+│   └── workflows/
+│       └── deploy.yml         # GitHub Actions deployment
 ├── index.html
 ├── package.json
 ├── tsconfig.json
 ├── vite.config.ts
+├── vitest.config.ts
 └── README.md
 ```
 
